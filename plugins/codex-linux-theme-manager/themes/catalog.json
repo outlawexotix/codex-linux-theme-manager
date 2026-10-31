@@ -1,0 +1,276 @@
+{
+  "collection": "Codex Linux Theme Manager — Mythic Worlds",
+  "version": 1,
+  "themes": [
+    {
+      "id": "feral-crown",
+      "name": "Feral Crown",
+      "mode": "dark",
+      "description": "A primeval cedar swamp ruled by an antlered forest beast.",
+      "palette": {
+        "canvas": "#171B17",
+        "surface": "#20261F",
+        "raised": "#2B332A",
+        "text": "#E8E4D7",
+        "muted": "#B4B29F",
+        "accent": "#A5B66D",
+        "border": "#485244",
+        "focus": "#D0B078",
+        "success": "#83B393",
+        "warning": "#B88A49",
+        "danger": "#C96D62",
+        "terminalBackground": "#111510",
+        "terminalForeground": "#E8E4D7"
+      },
+      "typography": {
+        "display": "DejaVu Serif Condensed",
+        "body": "IBM Plex Sans"
+      },
+      "package": "feral-crown.codex-theme",
+      "preview": "design-preview-1440x900.webp"
+    },
+    {
+      "id": "dawn-of-the-pantheon",
+      "name": "Dawn of the Pantheon",
+      "mode": "light",
+      "description": "A solar deity temple rising through clouds at first light.",
+      "palette": {
+        "canvas": "#F6EBD2",
+        "surface": "#F8F0DE",
+        "raised": "#FFF8E9",
+        "text": "#302F37",
+        "muted": "#706C69",
+        "accent": "#294A75",
+        "border": "#D7C9AA",
+        "focus": "#B68A3E",
+        "success": "#4B765F",
+        "warning": "#B88A49",
+        "danger": "#C96D62",
+        "terminalBackground": "#ECE4D4",
+        "terminalForeground": "#302F37"
+      },
+      "typography": {
+        "display": "Noto Serif Display",
+        "body": "Lato"
+      },
+      "package": "dawn-of-the-pantheon.codex-theme",
+      "preview": "design-preview-1440x900.webp"
+    },
+    {
+      "id": "drowned-leviathan",
+      "name": "The Drowned Leviathan",
+      "mode": "dark",
+      "description": "An immense ocean leviathan beneath bioluminescent kelp and coral.",
+      "palette": {
+        "canvas": "#071F26",
+        "surface": "#0D2A31",
+        "raised": "#12343C",
+        "text": "#E1F1EC",
+        "muted": "#A1C2BE",
+        "accent": "#52C7C0",
+        "border": "#24535A",
+        "focus": "#F07D70",
+        "success": "#83B393",
+        "warning": "#B88A49",
+        "danger": "#C96D62",
+        "terminalBackground": "#06191F",
+        "terminalForeground": "#E1F1EC"
+      },
+      "typography": {
+        "display": "IBM Plex Serif",
+        "body": "Noto Sans"
+      },
+      "package": "drowned-leviathan.codex-theme",
+      "preview": "design-preview-1440x900.webp"
+    },
+    {
+      "id": "neon-perseid",
+      "name": "Neon Perseid",
+      "mode": "dark",
+      "description": "A violet orbital city crossed by cyan meteor trails and distant stars.",
+      "palette": {
+        "canvas": "#0B1020",
+        "surface": "#11182A",
+        "raised": "#192238",
+        "text": "#E9ECFA",
+        "muted": "#A9B2CC",
+        "accent": "#8B5CF6",
+        "border": "#303B56",
+        "focus": "#49DDE2",
+        "success": "#83B393",
+        "warning": "#B88A49",
+        "danger": "#C96D62",
+        "terminalBackground": "#080D19",
+        "terminalForeground": "#E9ECFA"
+      },
+      "typography": {
+        "display": "Space Grotesk",
+        "body": "DM Mono"
+      },
+      "package": "neon-perseid.codex-theme",
+      "preview": "design-preview-1440x900.webp"
+    },
+    {
+      "id": "celestial-foundry",
+      "name": "Celestial Foundry",
+      "mode": "light",
+      "description": "A planetary forge ring with copper light against a porcelain starfield.",
+      "palette": {
+        "canvas": "#F3F2EA",
+        "surface": "#E9ECE5",
+        "raised": "#FAF9F2",
+        "text": "#25333B",
+        "muted": "#617078",
+        "accent": "#476C7B",
+        "border": "#C8D2CE",
+        "focus": "#B16E47",
+        "success": "#4B765F",
+        "warning": "#B88A49",
+        "danger": "#C96D62",
+        "terminalBackground": "#E6EAE5",
+        "terminalForeground": "#25333B"
+      },
+      "typography": {
+        "display": "IBM Plex Sans Condensed",
+        "body": "Noto Serif"
+      },
+      "package": "celestial-foundry.codex-theme",
+      "preview": "design-preview-1440x900.webp"
+    },
+    {
+      "id": "briar-of-eld",
+      "name": "Briar of Eld",
+      "mode": "light",
+      "description": "A thorned fantasy citadel within an enchanted, mistbound forest.",
+      "palette": {
+        "canvas": "#F1E4C9",
+        "surface": "#E8DCC4",
+        "raised": "#F9F0DD",
+        "text": "#342D31",
+        "muted": "#766B66",
+        "accent": "#315542",
+        "border": "#C9B99B",
+        "focus": "#7A405B",
+        "success": "#4B765F",
+        "warning": "#B88A49",
+        "danger": "#C96D62",
+        "terminalBackground": "#E5DAC3",
+        "terminalForeground": "#342D31"
+      },
+      "typography": {
+        "display": "Noto Serif",
+        "body": "DejaVu Sans"
+      },
+      "package": "briar-of-eld.codex-theme",
+      "preview": "design-preview-1440x900.webp"
+    },
+    {
+      "id": "wyvern-atlas",
+      "name": "Wyvern Atlas",
+      "mode": "dark",
+      "description": "A moonlit wyvern gliding over storm-carved mountain peaks.",
+      "palette": {
+        "canvas": "#182431",
+        "surface": "#202F3D",
+        "raised": "#2A3B48",
+        "text": "#E2E9E9",
+        "muted": "#ABB9BC",
+        "accent": "#B78A50",
+        "border": "#465963",
+        "focus": "#D4DCE1",
+        "success": "#83B393",
+        "warning": "#B88A49",
+        "danger": "#C96D62",
+        "terminalBackground": "#121D27",
+        "terminalForeground": "#E2E9E9"
+      },
+      "typography": {
+        "display": "IBM Plex Serif",
+        "body": "DejaVu Sans Condensed"
+      },
+      "package": "wyvern-atlas.codex-theme",
+      "preview": "design-preview-1440x900.webp"
+    },
+    {
+      "id": "pyrestone-titan",
+      "name": "Pyrestone Titan",
+      "mode": "dark",
+      "description": "A fire titan striding across black basalt and rivers of molten stone.",
+      "palette": {
+        "canvas": "#260F12",
+        "surface": "#351719",
+        "raised": "#47201E",
+        "text": "#F5E5D3",
+        "muted": "#C8A894",
+        "accent": "#ED6229",
+        "border": "#704038",
+        "focus": "#F5B344",
+        "success": "#83B393",
+        "warning": "#B88A49",
+        "danger": "#C96D62",
+        "terminalBackground": "#1C0B0E",
+        "terminalForeground": "#F5E5D3"
+      },
+      "typography": {
+        "display": "DejaVu Serif",
+        "body": "Lato"
+      },
+      "package": "pyrestone-titan.codex-theme",
+      "preview": "design-preview-1440x900.webp"
+    },
+    {
+      "id": "glacier-oracle",
+      "name": "Glacier Oracle",
+      "mode": "light",
+      "description": "A crystalline sanctuary under a pale aurora in the polar night.",
+      "palette": {
+        "canvas": "#F1FAFC",
+        "surface": "#E5F3F6",
+        "raised": "#FBFEFF",
+        "text": "#1C3449",
+        "muted": "#587587",
+        "accent": "#427DA0",
+        "border": "#C4DCE4",
+        "focus": "#83C6C2",
+        "success": "#4B765F",
+        "warning": "#B88A49",
+        "danger": "#C96D62",
+        "terminalBackground": "#E2F0F4",
+        "terminalForeground": "#1C3449"
+      },
+      "typography": {
+        "display": "Noto Sans Display",
+        "body": "Liberation Serif"
+      },
+      "package": "glacier-oracle.codex-theme",
+      "preview": "design-preview-1440x900.webp"
+    },
+    {
+      "id": "tempest-canticle",
+      "name": "Tempest Canticle",
+      "mode": "light",
+      "description": "A cloud cathedral pierced by lightning above a violet-blue storm.",
+      "palette": {
+        "canvas": "#F3F0F7",
+        "surface": "#EAE8F1",
+        "raised": "#FBFAFD",
+        "text": "#28293A",
+        "muted": "#676A7C",
+        "accent": "#4F4A79",
+        "border": "#D0CDDC",
+        "focus": "#327A9A",
+        "success": "#4B765F",
+        "warning": "#B88A49",
+        "danger": "#C96D62",
+        "terminalBackground": "#E5E5EF",
+        "terminalForeground": "#28293A"
+      },
+      "typography": {
+        "display": "Lato",
+        "body": "DejaVu Sans Mono"
+      },
+      "package": "tempest-canticle.codex-theme",
+      "preview": "design-preview-1440x900.webp"
+    }
+  ]
+}

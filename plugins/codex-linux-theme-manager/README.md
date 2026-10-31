@@ -1,21 +1,25 @@
 # Codex Linux Theme Manager
 
-This local Codex plugin packages the repeatable theme workflow from the Linux desktop work: create and repair themes, discover and install theme packages, then apply, verify, roll back, or restore them.
+A Linux-focused Codex plugin for creating, finding, installing, applying, verifying, repairing, and restoring themes. It includes ten portable theme packages spanning mythical creatures, beasts, gods, monsters, science fiction, fantasy, and elemental worlds.
 
 ## Skills
 
-- **codex-theme-design** — visual contract, palette and typography, original backdrop art, safe page selectors, and live-app repair.
+- **codex-theme-design** — visual contract, palettes and typography, original backdrop art, safe page selectors, and live-app repair.
 - **codex-theme-operations** — Linux switching, conversation-page checks, explicit restart approval, status verification, rollback, and native restore.
-- **codex-theme-library** — discovery, package inspection, supported installation handoff, and confirmation that a theme is actually present.
+- **codex-theme-library** — bundled theme catalog, package inspection, safe local installation, and confirmation that a theme is present.
+
+## Included collection
+
+Browse `themes/catalog.json` for names, color palettes, font pairs, and modes. Each `.codex-theme` package embeds its own original backdrop and design preview. There are five light and five dark options. Artwork is scoped to home and conversation pages. The included previews illustrate the design and are not verified Codex screenshots.
+
+Font families use system fonts with generic serif/sans fallbacks. They were present on the authoring Linux system but are not bundled, so another installation may display a fallback family.
 
 ## Use
 
-Install this folder or its ZIP using a Codex plugin installation route supported by your desktop build. After installation, try:
+Try these requests:
 
 - “Create a Codex theme with this visual direction and verify it on home and conversation pages.”
-- “Find and install a dark gritty Codex theme, then tell me how to apply it.”
-- “Check the active Codex theme and restore the native appearance if needed.”
+- “List the bundled themes and install Glacier Oracle.”
+- “Apply the active theme on Linux, verify home and conversation pages, and tell me how to restore the native look.”
 
-The skills use available theme creator, switcher, finder, and installer tools when present. The package contains workflow guidance only; it does not include an injector, theme artwork, or theme gallery client. If a required host skill or supported installation route is unavailable, the workflow should say so rather than invent commands. Restarting Codex requires explicit user approval. Applying or installing a theme is not claimed complete until the relevant status or library readback confirms it.
-
-Keep the editable source folder as your maintained copy. The ZIP in `dist/` has the plugin manifest and skills at its root.
+The bundled importer writes themes to `~/.codexthemes/themes/<theme-id>/`, validates package assets and CSS, and refuses to overwrite an existing theme. Review CSS from outside this bundle before applying it; CSS can still restyle or hide app content. The plugin does not include a theme injector; apply and restore through the supported `codex-theme-switcher` skill when available. If a required host skill or supported installation route is unavailable, explain that dependency instead of inventing a command. Restarting Codex requires explicit user approval. Applying a theme is not complete until the status readback confirms it.
