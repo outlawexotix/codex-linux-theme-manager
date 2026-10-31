@@ -1,0 +1,20 @@
+{
+  "name": "codex-linux-theme-manager",
+  "interface": {
+    "displayName": "Codex Linux Theme Manager"
+  },
+  "plugins": [
+    {
+      "name": "codex-linux-theme-manager",
+      "source": {
+        "source": "local",
+        "path": "./plugins/codex-linux-theme-manager"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
