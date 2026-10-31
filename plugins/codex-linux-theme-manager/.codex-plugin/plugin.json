@@ -1,0 +1,26 @@
+{
+  "name": "codex-linux-theme-manager",
+  "version": "1.0.1",
+  "description": "Create, find, install, apply, verify, repair, and restore visual themes for the Codex desktop app on Linux.",
+  "author": {
+    "name": "outlawexotix",
+    "url": "https://github.com/outlawexotix"
+  },
+  "homepage": "https://github.com/outlawexotix/codex-linux-theme-manager",
+  "repository": "https://github.com/outlawexotix/codex-linux-theme-manager",
+  "keywords": ["codex", "linux", "desktop", "theme", "appearance", "wallpaper"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Codex Linux Theme Manager",
+    "shortDescription": "Create and manage Codex desktop themes on Linux",
+    "longDescription": "A reusable workflow for designing original Codex themes, finding and installing theme packages, switching themes in the Linux desktop app, verifying home and conversation pages independently, and restoring the native appearance.",
+    "developerName": "outlawexotix",
+    "category": "Developer Tools",
+    "capabilities": ["Interactive", "Write"],
+    "defaultPrompt": [
+      "Create a new Codex desktop theme and verify it on home and conversation pages",
+      "Find and install a Codex theme, then apply it safely",
+      "Check which theme is active and restore the native Codex appearance"
+    ]
+  }
+}
