@@ -1,25 +1,25 @@
 # Codex Linux Theme Manager
 
-A Linux-focused Codex plugin for creating, finding, installing, applying, verifying, repairing, and restoring themes. It includes ten portable theme packages spanning mythical creatures, beasts, gods, monsters, science fiction, fantasy, and elemental worlds.
+Create and manage visual themes for the Codex desktop app on Linux. The plugin provides three workflows and ten bundled theme packages.
 
 ## Skills
 
-- **codex-theme-design** — visual contract, palettes and typography, original backdrop art, safe page selectors, and live-app repair.
-- **codex-theme-operations** — Linux switching, conversation-page checks, explicit restart approval, status verification, rollback, and native restore.
-- **codex-theme-library** — bundled theme catalog, package inspection, safe local installation, and confirmation that a theme is present.
+- **codex-theme-design** — define palettes and typography, create original artwork, and repair themes with page-specific visual checks.
+- **codex-theme-operations** — apply or switch themes, verify live page status, roll back, or restore the native appearance.
+- **codex-theme-library** — browse the bundled catalog, inspect packages, and install a selected theme into the user theme library.
 
-## Included collection
+## Bundled packages
 
-Browse `themes/catalog.json` for names, color palettes, font pairs, and modes. Each `.codex-theme` package embeds its own original backdrop and design preview. There are five light and five dark options. Artwork is scoped to home and conversation pages. The included previews illustrate the design and are not verified Codex screenshots.
+The `themes/` directory contains ten `.codex-theme` packages. `themes/catalog.json` is the browseable index for their IDs, modes, descriptions, palettes, fonts, and previews. Every package embeds its artwork and a design preview. Pyrestone Titan's bundled artwork is 1672 × 941 WebP; the other themes keep their individually authored assets. Previews show design intent and are not screenshots of an applied Codex session.
 
-Font families use system fonts with generic serif/sans fallbacks. They were present on the authoring Linux system but are not bundled, so another installation may display a fallback family.
+The themes cover beasts, gods, monsters, science fiction, fantasy, mythical creatures, and elemental settings. Five use light palettes and five use dark palettes. Fonts rely on named Linux system families with generic fallbacks and are not included in the packages.
 
-## Use
+## Install a theme
 
-Try these requests:
+Ask `codex-theme-library` to install one of the bundled themes. The installer writes to `~/.codexthemes/themes/<theme-id>/` and refuses to replace an existing theme. It validates package paths, CSS references, image types, and size; it does not execute package content.
 
-- “Create a Codex theme with this visual direction and verify it on home and conversation pages.”
-- “List the bundled themes and install Glacier Oracle.”
-- “Apply the active theme on Linux, verify home and conversation pages, and tell me how to restore the native look.”
+Installation does not activate the theme. Ask `codex-theme-operations` to apply it, then confirm the live status. The supported switcher owns the reversible runtime and reports which open pages were themed. If a live readability check fails, it reverts the attempted theme. A running Codex instance may need to be relaunched only through the supported flow, which requires explicit approval.
 
-The bundled importer writes themes to `~/.codexthemes/themes/<theme-id>/`, validates package assets and CSS, and refuses to overwrite an existing theme. Review CSS from outside this bundle before applying it; CSS can still restyle or hide app content. The plugin does not include a theme injector; apply and restore through the supported `codex-theme-switcher` skill when available. If a required host skill or supported installation route is unavailable, explain that dependency instead of inventing a command. Restarting Codex requires explicit user approval. Applying a theme is not complete until the status readback confirms it.
+## Theme boundaries
+
+Bundled background art is scoped to home and conversation pages. Settings and other system surfaces stay outside the workspace artwork scope. Native layout, controls, and interactions are preserved. Applying a theme is complete only after the switcher confirms active status on the open pages; static validation and design previews alone do not prove live behavior.
